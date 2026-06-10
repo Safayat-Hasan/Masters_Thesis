@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<sdf version="1.9">
+  <model name="sonar_seabed">
+    <static>true</static>
+
+    <link name="link">
+      <collision name="collision">
+        <geometry>
+          <heightmap>
+            <uri>model://sonar_seabed/materials/textures/seabed_heightmap.png</uri>
+            <size>13.384604159287655 41.800681398202805 abs(-0.6523374372601993 - z_min)</size>
+            <pos>0 0 0</pos>
+          </heightmap>
+        </geometry>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <heightmap>
+            <uri>model://sonar_seabed/materials/textures/seabed_heightmap.png</uri>
+            <size>WIDTH_M LENGTH_M HEIGHT_M</size>
+            <pos>0 0 0</pos>
+          </heightmap>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>

@@ -1,0 +1,42 @@
+running egg_info
+creating ../build/lidar_plotter/lidar_plotter.egg-info
+writing ../build/lidar_plotter/lidar_plotter.egg-info/PKG-INFO
+writing dependency_links to ../build/lidar_plotter/lidar_plotter.egg-info/dependency_links.txt
+writing entry points to ../build/lidar_plotter/lidar_plotter.egg-info/entry_points.txt
+writing requirements to ../build/lidar_plotter/lidar_plotter.egg-info/requires.txt
+writing top-level names to ../build/lidar_plotter/lidar_plotter.egg-info/top_level.txt
+writing manifest file '../build/lidar_plotter/lidar_plotter.egg-info/SOURCES.txt'
+reading manifest file '../build/lidar_plotter/lidar_plotter.egg-info/SOURCES.txt'
+writing manifest file '../build/lidar_plotter/lidar_plotter.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/safayat/dave_lidar_ws/src/build/lidar_plotter/build
+creating /home/safayat/dave_lidar_ws/src/build/lidar_plotter/build/lib
+creating /home/safayat/dave_lidar_ws/src/build/lidar_plotter/build/lib/lidar_plotter
+copying lidar_plotter/__init__.py -> /home/safayat/dave_lidar_ws/src/build/lidar_plotter/build/lib/lidar_plotter
+copying lidar_plotter/lidar_truth_overlay.py -> /home/safayat/dave_lidar_ws/src/build/lidar_plotter/build/lib/lidar_plotter
+copying lidar_plotter/lidar_plotter.py -> /home/safayat/dave_lidar_ws/src/build/lidar_plotter/build/lib/lidar_plotter
+copying lidar_plotter/lidar_online_mapping_node.py -> /home/safayat/dave_lidar_ws/src/build/lidar_plotter/build/lib/lidar_plotter
+running install
+running install_lib
+creating /home/safayat/dave_lidar_ws/src/install/lidar_plotter/lib/python3.12/site-packages/lidar_plotter
+copying /home/safayat/dave_lidar_ws/src/build/lidar_plotter/build/lib/lidar_plotter/__init__.py -> /home/safayat/dave_lidar_ws/src/install/lidar_plotter/lib/python3.12/site-packages/lidar_plotter
+copying /home/safayat/dave_lidar_ws/src/build/lidar_plotter/build/lib/lidar_plotter/lidar_truth_overlay.py -> /home/safayat/dave_lidar_ws/src/install/lidar_plotter/lib/python3.12/site-packages/lidar_plotter
+copying /home/safayat/dave_lidar_ws/src/build/lidar_plotter/build/lib/lidar_plotter/lidar_plotter.py -> /home/safayat/dave_lidar_ws/src/install/lidar_plotter/lib/python3.12/site-packages/lidar_plotter
+copying /home/safayat/dave_lidar_ws/src/build/lidar_plotter/build/lib/lidar_plotter/lidar_online_mapping_node.py -> /home/safayat/dave_lidar_ws/src/install/lidar_plotter/lib/python3.12/site-packages/lidar_plotter
+byte-compiling /home/safayat/dave_lidar_ws/src/install/lidar_plotter/lib/python3.12/site-packages/lidar_plotter/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/safayat/dave_lidar_ws/src/install/lidar_plotter/lib/python3.12/site-packages/lidar_plotter/lidar_truth_overlay.py to lidar_truth_overlay.cpython-312.pyc
+byte-compiling /home/safayat/dave_lidar_ws/src/install/lidar_plotter/lib/python3.12/site-packages/lidar_plotter/lidar_plotter.py to lidar_plotter.cpython-312.pyc
+byte-compiling /home/safayat/dave_lidar_ws/src/install/lidar_plotter/lib/python3.12/site-packages/lidar_plotter/lidar_online_mapping_node.py to lidar_online_mapping_node.cpython-312.pyc
+running install_data
+creating /home/safayat/dave_lidar_ws/src/install/lidar_plotter/share/ament_index
+creating /home/safayat/dave_lidar_ws/src/install/lidar_plotter/share/ament_index/resource_index
+creating /home/safayat/dave_lidar_ws/src/install/lidar_plotter/share/ament_index/resource_index/packages
+copying resource/lidar_plotter -> /home/safayat/dave_lidar_ws/src/install/lidar_plotter/share/ament_index/resource_index/packages
+copying package.xml -> /home/safayat/dave_lidar_ws/src/install/lidar_plotter/share/lidar_plotter
+running install_egg_info
+Copying ../build/lidar_plotter/lidar_plotter.egg-info to /home/safayat/dave_lidar_ws/src/install/lidar_plotter/lib/python3.12/site-packages/lidar_plotter-0.0.0-py3.12.egg-info
+running install_scripts
+Installing lidar_plotter script to /home/safayat/dave_lidar_ws/src/install/lidar_plotter/lib/lidar_plotter
+Installing lidar_truth_overlay script to /home/safayat/dave_lidar_ws/src/install/lidar_plotter/lib/lidar_plotter
+writing list of installed files to '/home/safayat/dave_lidar_ws/src/build/lidar_plotter/install.log'

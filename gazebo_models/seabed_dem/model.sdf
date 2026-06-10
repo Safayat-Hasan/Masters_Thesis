@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<sdf version="1.10">
+
+  <model name="seabed_dem">
+
+    <static>true</static>
+
+    <link name="terrain">
+
+      <collision name="collision">
+        <geometry>
+          <heightmap>
+
+            <uri>
+              /home/safayat/gazebo_models/seabed_dem/materials/textures/seabed_heightmap.png
+            </uri>
+
+            <size>40 15 5</size>
+
+            <pos>0 0 -2.5</pos>
+
+
+          </heightmap>
+        </geometry>
+      </collision>
+
+      <visual name="visual">
+
+        <cast_shadows>false</cast_shadows>
+
+        <material>
+          <ambient>0.8 0.8 0.8 1</ambient>
+          <diffuse>0.9 0.9 0.9 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+        </material>
+
+        <geometry>
+          <heightmap>
+
+            <uri>
+              home/safayat/gazebo_models/seabed_dem/materials/textures/seabed_heightmap.png
+            </uri>
+
+            <size>40 15 5</size>
+
+            <pos>0 0 -2.5</pos>
+
+            <texture>
+              <diffuse>/home/safayat/gazebo_models/seabed_dem/materials/textures/grey_seabed.png</diffuse>
+              <normal>/home/safayat/gazebo_models/seabed_dem/materials/textures/flat_normal.png</normal>
+              <size>10</size>
+            </texture>
+
+            <blend>
+              <min_height>-10</min_height>
+              <fade_dist>5</fade_dist>
+            </blend>
+
+          </heightmap>
+        </geometry>
+      </visual>
+
+    </link>
+
+  </model>
+
+</sdf>

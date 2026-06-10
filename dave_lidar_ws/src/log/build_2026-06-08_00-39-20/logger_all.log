@@ -1,0 +1,432 @@
+[0.134s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'lidar_plotter']
+[0.134s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['lidar_plotter'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7c41e45ff470>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7c41e455c3e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7c41e455c3e0>>)
+[0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.185s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/safayat/dave_lidar_ws/src'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(dave) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(dave) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(dave) by extension 'ignore_ament_install'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(dave) by extensions ['colcon_pkg']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(dave) by extension 'colcon_pkg'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(dave) by extensions ['colcon_meta']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(dave) by extension 'colcon_meta'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(dave) by extensions ['ros']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(dave) by extension 'ros'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(dave) by extensions ['cmake', 'python']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(dave) by extension 'cmake'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(dave) by extension 'python'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(dave) by extensions ['python_setup_py']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(dave) by extension 'python_setup_py'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(dave/dave) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(dave/dave) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(dave/dave) by extension 'ignore_ament_install'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(dave/dave) by extensions ['colcon_pkg']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(dave/dave) by extension 'colcon_pkg'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(dave/dave) by extensions ['colcon_meta']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(dave/dave) by extension 'colcon_meta'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(dave/dave) by extensions ['ros']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(dave/dave) by extension 'ros'
+[0.210s] DEBUG:colcon.colcon_core.package_identification:Package 'dave/dave' with type 'ros.ament_cmake' and name 'dave'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(dave/dave_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(dave/dave_interfaces) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(dave/dave_interfaces) by extension 'ignore_ament_install'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(dave/dave_interfaces) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(dave/dave_interfaces) by extension 'colcon_pkg'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(dave/dave_interfaces) by extensions ['colcon_meta']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(dave/dave_interfaces) by extension 'colcon_meta'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(dave/dave_interfaces) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(dave/dave_interfaces) by extension 'ros'
+[0.211s] DEBUG:colcon.colcon_core.package_identification:Package 'dave/dave_interfaces' with type 'ros.ament_cmake' and name 'dave_interfaces'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(dave/examples) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(dave/examples) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(dave/examples) by extension 'ignore_ament_install'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(dave/examples) by extensions ['colcon_pkg']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(dave/examples) by extension 'colcon_pkg'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(dave/examples) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(dave/examples) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(dave/examples) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(dave/examples) by extension 'ros'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(dave/examples) by extensions ['cmake', 'python']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(dave/examples) by extension 'cmake'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(dave/examples) by extension 'python'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(dave/examples) by extensions ['python_setup_py']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(dave/examples) by extension 'python_setup_py'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(dave/examples/dave_demos) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(dave/examples/dave_demos) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(dave/examples/dave_demos) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(dave/examples/dave_demos) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(dave/examples/dave_demos) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(dave/examples/dave_demos) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(dave/examples/dave_demos) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(dave/examples/dave_demos) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(dave/examples/dave_demos) by extension 'ros'
+[0.213s] DEBUG:colcon.colcon_core.package_identification:Package 'dave/examples/dave_demos' with type 'ros.ament_cmake' and name 'dave_demos'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(dave/extras) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(dave/extras) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(dave/extras) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(dave/extras) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(dave/extras) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(dave/extras) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(dave/extras) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(dave/extras) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(dave/extras) by extension 'ros'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(dave/extras) by extensions ['cmake', 'python']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(dave/extras) by extension 'cmake'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(dave/extras) by extension 'python'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(dave/extras) by extensions ['python_setup_py']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(dave/extras) by extension 'python_setup_py'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(dave/extras/lint_local) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(dave/extras/lint_local) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(dave/extras/lint_local) by extension 'ignore_ament_install'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(dave/extras/lint_local) by extensions ['colcon_pkg']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(dave/extras/lint_local) by extension 'colcon_pkg'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(dave/extras/lint_local) by extensions ['colcon_meta']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(dave/extras/lint_local) by extension 'colcon_meta'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(dave/extras/lint_local) by extensions ['ros']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(dave/extras/lint_local) by extension 'ros'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(dave/extras/lint_local) by extensions ['cmake', 'python']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(dave/extras/lint_local) by extension 'cmake'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(dave/extras/lint_local) by extension 'python'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(dave/extras/lint_local) by extensions ['python_setup_py']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(dave/extras/lint_local) by extension 'python_setup_py'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(dave/extras/repos) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(dave/extras/repos) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(dave/extras/repos) by extension 'ignore_ament_install'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(dave/extras/repos) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(dave/extras/repos) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(dave/extras/repos) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(dave/extras/repos) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(dave/extras/repos) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(dave/extras/repos) by extension 'ros'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(dave/extras/repos) by extensions ['cmake', 'python']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(dave/extras/repos) by extension 'cmake'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(dave/extras/repos) by extension 'python'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(dave/extras/repos) by extensions ['python_setup_py']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(dave/extras/repos) by extension 'python_setup_py'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo) by extension 'ros'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo) by extensions ['cmake', 'python']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo) by extension 'cmake'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo) by extension 'python'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo) by extensions ['python_setup_py']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo) by extension 'python_setup_py'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_model_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_model_plugins) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_model_plugins) by extension 'ignore_ament_install'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_model_plugins) by extensions ['colcon_pkg']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_model_plugins) by extension 'colcon_pkg'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_model_plugins) by extensions ['colcon_meta']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_model_plugins) by extension 'colcon_meta'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_model_plugins) by extensions ['ros']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_model_plugins) by extension 'ros'
+[0.216s] DEBUG:colcon.colcon_core.package_identification:Package 'dave/gazebo/dave_gz_model_plugins' with type 'ros.ament_cmake' and name 'dave_gz_model_plugins'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_multibeam_sonar) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_multibeam_sonar) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_multibeam_sonar) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_multibeam_sonar) by extensions ['colcon_pkg']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_multibeam_sonar) by extension 'colcon_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_multibeam_sonar) by extensions ['colcon_meta']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_multibeam_sonar) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_multibeam_sonar) by extensions ['ros']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_multibeam_sonar) by extension 'ros'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_multibeam_sonar) by extensions ['cmake', 'python']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_multibeam_sonar) by extension 'cmake'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_multibeam_sonar) by extension 'python'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_multibeam_sonar) by extensions ['python_setup_py']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_multibeam_sonar) by extension 'python_setup_py'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_multibeam_sonar/multibeam_sonar) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_multibeam_sonar/multibeam_sonar) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_multibeam_sonar/multibeam_sonar) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_multibeam_sonar/multibeam_sonar) by extensions ['colcon_pkg']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_multibeam_sonar/multibeam_sonar) by extension 'colcon_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_multibeam_sonar/multibeam_sonar) by extensions ['colcon_meta']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_multibeam_sonar/multibeam_sonar) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_multibeam_sonar/multibeam_sonar) by extensions ['ros']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_multibeam_sonar/multibeam_sonar) by extension 'ros'
+[0.218s] DEBUG:colcon.colcon_core.package_identification:Package 'dave/gazebo/dave_gz_multibeam_sonar/multibeam_sonar' with type 'ros.ament_cmake' and name 'multibeam_sonar'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_multibeam_sonar/multibeam_sonar_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_multibeam_sonar/multibeam_sonar_demo) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_multibeam_sonar/multibeam_sonar_demo) by extension 'ignore_ament_install'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_multibeam_sonar/multibeam_sonar_demo) by extensions ['colcon_pkg']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_multibeam_sonar/multibeam_sonar_demo) by extension 'colcon_pkg'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_multibeam_sonar/multibeam_sonar_demo) by extensions ['colcon_meta']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_multibeam_sonar/multibeam_sonar_demo) by extension 'colcon_meta'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_multibeam_sonar/multibeam_sonar_demo) by extensions ['ros']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_multibeam_sonar/multibeam_sonar_demo) by extension 'ros'
+[0.220s] DEBUG:colcon.colcon_core.package_identification:Package 'dave/gazebo/dave_gz_multibeam_sonar/multibeam_sonar_demo' with type 'ros.ament_cmake' and name 'dave_multibeam_sonar_demo'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_multibeam_sonar/multibeam_sonar_system) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_multibeam_sonar/multibeam_sonar_system) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_multibeam_sonar/multibeam_sonar_system) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_multibeam_sonar/multibeam_sonar_system) by extensions ['colcon_pkg']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_multibeam_sonar/multibeam_sonar_system) by extension 'colcon_pkg'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_multibeam_sonar/multibeam_sonar_system) by extensions ['colcon_meta']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_multibeam_sonar/multibeam_sonar_system) by extension 'colcon_meta'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_multibeam_sonar/multibeam_sonar_system) by extensions ['ros']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_multibeam_sonar/multibeam_sonar_system) by extension 'ros'
+[0.221s] DEBUG:colcon.colcon_core.package_identification:Package 'dave/gazebo/dave_gz_multibeam_sonar/multibeam_sonar_system' with type 'ros.ament_cmake' and name 'multibeam_sonar_system'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_multibeam_sonar/sonar_3d) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_multibeam_sonar/sonar_3d) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_multibeam_sonar/sonar_3d) by extension 'ignore_ament_install'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_multibeam_sonar/sonar_3d) by extensions ['colcon_pkg']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_multibeam_sonar/sonar_3d) by extension 'colcon_pkg'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_multibeam_sonar/sonar_3d) by extensions ['colcon_meta']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_multibeam_sonar/sonar_3d) by extension 'colcon_meta'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_multibeam_sonar/sonar_3d) by extensions ['ros']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_multibeam_sonar/sonar_3d) by extension 'ros'
+[0.221s] DEBUG:colcon.colcon_core.package_identification:Package 'dave/gazebo/dave_gz_multibeam_sonar/sonar_3d' with type 'ros.ament_cmake' and name 'sonar_3d'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_sensor_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_sensor_plugins) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_sensor_plugins) by extension 'ignore_ament_install'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_sensor_plugins) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_sensor_plugins) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_sensor_plugins) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_sensor_plugins) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_sensor_plugins) by extensions ['ros']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_sensor_plugins) by extension 'ros'
+[0.222s] DEBUG:colcon.colcon_core.package_identification:Package 'dave/gazebo/dave_gz_sensor_plugins' with type 'ros.ament_cmake' and name 'dave_gz_sensor_plugins'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_world_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_world_plugins) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_world_plugins) by extension 'ignore_ament_install'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_world_plugins) by extensions ['colcon_pkg']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_world_plugins) by extension 'colcon_pkg'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_world_plugins) by extensions ['colcon_meta']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_world_plugins) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_world_plugins) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_gz_world_plugins) by extension 'ros'
+[0.223s] DEBUG:colcon.colcon_core.package_identification:Package 'dave/gazebo/dave_gz_world_plugins' with type 'ros.ament_cmake' and name 'dave_gz_world_plugins'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_ros_gz_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_ros_gz_plugins) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_ros_gz_plugins) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_ros_gz_plugins) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_ros_gz_plugins) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_ros_gz_plugins) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_ros_gz_plugins) by extension 'colcon_meta'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_ros_gz_plugins) by extensions ['ros']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(dave/gazebo/dave_ros_gz_plugins) by extension 'ros'
+[0.224s] DEBUG:colcon.colcon_core.package_identification:Package 'dave/gazebo/dave_ros_gz_plugins' with type 'ros.ament_cmake' and name 'dave_ros_gz_plugins'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(dave/models) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(dave/models) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(dave/models) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(dave/models) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(dave/models) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(dave/models) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(dave/models) by extension 'colcon_meta'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(dave/models) by extensions ['ros']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(dave/models) by extension 'ros'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(dave/models) by extensions ['cmake', 'python']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(dave/models) by extension 'cmake'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(dave/models) by extension 'python'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(dave/models) by extensions ['python_setup_py']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(dave/models) by extension 'python_setup_py'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(dave/models/dave_object_models) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(dave/models/dave_object_models) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(dave/models/dave_object_models) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(dave/models/dave_object_models) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(dave/models/dave_object_models) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(dave/models/dave_object_models) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(dave/models/dave_object_models) by extension 'colcon_meta'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(dave/models/dave_object_models) by extensions ['ros']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(dave/models/dave_object_models) by extension 'ros'
+[0.225s] DEBUG:colcon.colcon_core.package_identification:Package 'dave/models/dave_object_models' with type 'ros.ament_cmake' and name 'dave_object_models'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(dave/models/dave_robot_models) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(dave/models/dave_robot_models) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(dave/models/dave_robot_models) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(dave/models/dave_robot_models) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(dave/models/dave_robot_models) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(dave/models/dave_robot_models) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(dave/models/dave_robot_models) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(dave/models/dave_robot_models) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(dave/models/dave_robot_models) by extension 'ros'
+[0.226s] DEBUG:colcon.colcon_core.package_identification:Package 'dave/models/dave_robot_models' with type 'ros.ament_cmake' and name 'dave_robot_models'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(dave/models/dave_sensor_models) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(dave/models/dave_sensor_models) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(dave/models/dave_sensor_models) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(dave/models/dave_sensor_models) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(dave/models/dave_sensor_models) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(dave/models/dave_sensor_models) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(dave/models/dave_sensor_models) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(dave/models/dave_sensor_models) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(dave/models/dave_sensor_models) by extension 'ros'
+[0.227s] DEBUG:colcon.colcon_core.package_identification:Package 'dave/models/dave_sensor_models' with type 'ros.ament_cmake' and name 'dave_sensor_models'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(dave/models/dave_worlds) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(dave/models/dave_worlds) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(dave/models/dave_worlds) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(dave/models/dave_worlds) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(dave/models/dave_worlds) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(dave/models/dave_worlds) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(dave/models/dave_worlds) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(dave/models/dave_worlds) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(dave/models/dave_worlds) by extension 'ros'
+[0.228s] DEBUG:colcon.colcon_core.package_identification:Package 'dave/models/dave_worlds' with type 'ros.ament_cmake' and name 'dave_worlds'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_plotter) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_plotter) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_plotter) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_plotter) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_plotter) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_plotter) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_plotter) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_plotter) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_plotter) by extension 'ros'
+[0.230s] DEBUG:colcon.colcon_core.package_identification:Package 'lidar_plotter' with type 'ros.ament_python' and name 'lidar_plotter'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(simple_lidar_bot) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(simple_lidar_bot) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(simple_lidar_bot) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(simple_lidar_bot) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(simple_lidar_bot) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(simple_lidar_bot) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(simple_lidar_bot) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(simple_lidar_bot) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(simple_lidar_bot) by extension 'ros'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(simple_lidar_bot) by extensions ['cmake', 'python']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(simple_lidar_bot) by extension 'cmake'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(simple_lidar_bot) by extension 'python'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(simple_lidar_bot) by extensions ['python_setup_py']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(simple_lidar_bot) by extension 'python_setup_py'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(simple_lidar_bot/models) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(simple_lidar_bot/models) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(simple_lidar_bot/models) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(simple_lidar_bot/models) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(simple_lidar_bot/models) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(simple_lidar_bot/models) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(simple_lidar_bot/models) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(simple_lidar_bot/models) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(simple_lidar_bot/models) by extension 'ros'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(simple_lidar_bot/models) by extensions ['cmake', 'python']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(simple_lidar_bot/models) by extension 'cmake'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(simple_lidar_bot/models) by extension 'python'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(simple_lidar_bot/models) by extensions ['python_setup_py']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(simple_lidar_bot/models) by extension 'python_setup_py'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(simple_lidar_bot/models/simple_lidar_bot) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(simple_lidar_bot/models/simple_lidar_bot) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(simple_lidar_bot/models/simple_lidar_bot) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(simple_lidar_bot/models/simple_lidar_bot) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(simple_lidar_bot/models/simple_lidar_bot) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(simple_lidar_bot/models/simple_lidar_bot) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(simple_lidar_bot/models/simple_lidar_bot) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(simple_lidar_bot/models/simple_lidar_bot) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(simple_lidar_bot/models/simple_lidar_bot) by extension 'ros'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(simple_lidar_bot/models/simple_lidar_bot) by extensions ['cmake', 'python']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(simple_lidar_bot/models/simple_lidar_bot) by extension 'cmake'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(simple_lidar_bot/models/simple_lidar_bot) by extension 'python'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(simple_lidar_bot/models/simple_lidar_bot) by extensions ['python_setup_py']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(simple_lidar_bot/models/simple_lidar_bot) by extension 'python_setup_py'
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.249s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dave' in 'dave/dave'
+[0.249s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dave_demos' in 'dave/examples/dave_demos'
+[0.249s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dave_interfaces' in 'dave/dave_interfaces'
+[0.249s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dave_multibeam_sonar_demo' in 'dave/gazebo/dave_gz_multibeam_sonar/multibeam_sonar_demo'
+[0.249s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dave_object_models' in 'dave/models/dave_object_models'
+[0.249s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dave_robot_models' in 'dave/models/dave_robot_models'
+[0.249s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dave_sensor_models' in 'dave/models/dave_sensor_models'
+[0.249s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dave_worlds' in 'dave/models/dave_worlds'
+[0.249s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'multibeam_sonar_system' in 'dave/gazebo/dave_gz_multibeam_sonar/multibeam_sonar_system'
+[0.249s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'sonar_3d' in 'dave/gazebo/dave_gz_multibeam_sonar/sonar_3d'
+[0.249s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dave_gz_sensor_plugins' in 'dave/gazebo/dave_gz_sensor_plugins'
+[0.249s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dave_gz_world_plugins' in 'dave/gazebo/dave_gz_world_plugins'
+[0.249s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'multibeam_sonar' in 'dave/gazebo/dave_gz_multibeam_sonar/multibeam_sonar'
+[0.249s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dave_ros_gz_plugins' in 'dave/gazebo/dave_ros_gz_plugins'
+[0.249s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dave_gz_model_plugins' in 'dave/gazebo/dave_gz_model_plugins'
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.252s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 263 installed packages in /opt/ros/jazzy
+[0.253s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 67 installed packages in /opt/ros/humble
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'lidar_plotter' build argument 'cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'lidar_plotter' build argument 'cmake_target' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'lidar_plotter' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'lidar_plotter' build argument 'cmake_clean_cache' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'lidar_plotter' build argument 'cmake_clean_first' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'lidar_plotter' build argument 'cmake_force_configure' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'lidar_plotter' build argument 'ament_cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'lidar_plotter' build argument 'catkin_cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'lidar_plotter' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.282s] DEBUG:colcon.colcon_core.verb:Building package 'lidar_plotter' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/safayat/dave_lidar_ws/src/build/lidar_plotter', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/safayat/dave_lidar_ws/src/install/lidar_plotter', 'merge_install': False, 'path': '/home/safayat/dave_lidar_ws/src/lidar_plotter', 'symlink_install': False, 'test_result_base': None}
+[0.282s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.283s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.283s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/safayat/dave_lidar_ws/src/lidar_plotter' with build type 'ament_python'
+[0.284s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_plotter', 'ament_prefix_path')
+[0.287s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.287s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/safayat/dave_lidar_ws/src/install/lidar_plotter/share/lidar_plotter/hook/ament_prefix_path.ps1'
+[0.288s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/safayat/dave_lidar_ws/src/install/lidar_plotter/share/lidar_plotter/hook/ament_prefix_path.dsv'
+[0.288s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/safayat/dave_lidar_ws/src/install/lidar_plotter/share/lidar_plotter/hook/ament_prefix_path.sh'
+[0.289s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.289s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.432s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/safayat/dave_lidar_ws/src/lidar_plotter'
+[0.433s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.433s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.963s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/safayat/dave_lidar_ws/src/lidar_plotter': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/safayat/dave_lidar_ws/src/build/lidar_plotter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/safayat/dave_lidar_ws/src/install/lidar_plotter/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/lidar_plotter build --build-base /home/safayat/dave_lidar_ws/src/build/lidar_plotter/build install --record /home/safayat/dave_lidar_ws/src/build/lidar_plotter/install.log --single-version-externally-managed install_data
+[1.287s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/safayat/dave_lidar_ws/src/lidar_plotter' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/safayat/dave_lidar_ws/src/build/lidar_plotter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/safayat/dave_lidar_ws/src/install/lidar_plotter/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/lidar_plotter build --build-base /home/safayat/dave_lidar_ws/src/build/lidar_plotter/build install --record /home/safayat/dave_lidar_ws/src/build/lidar_plotter/install.log --single-version-externally-managed install_data
+[1.291s] Level 1:colcon.colcon_core.environment:checking '/home/safayat/dave_lidar_ws/src/install/lidar_plotter' for CMake module files
+[1.291s] Level 1:colcon.colcon_core.environment:checking '/home/safayat/dave_lidar_ws/src/install/lidar_plotter' for CMake config files
+[1.292s] Level 1:colcon.colcon_core.environment:checking '/home/safayat/dave_lidar_ws/src/install/lidar_plotter/lib'
+[1.292s] Level 1:colcon.colcon_core.environment:checking '/home/safayat/dave_lidar_ws/src/install/lidar_plotter/bin'
+[1.292s] Level 1:colcon.colcon_core.environment:checking '/home/safayat/dave_lidar_ws/src/install/lidar_plotter/lib/pkgconfig/lidar_plotter.pc'
+[1.292s] Level 1:colcon.colcon_core.environment:checking '/home/safayat/dave_lidar_ws/src/install/lidar_plotter/lib/python3.12/site-packages'
+[1.292s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_plotter', 'pythonpath')
+[1.293s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/safayat/dave_lidar_ws/src/install/lidar_plotter/share/lidar_plotter/hook/pythonpath.ps1'
+[1.293s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/safayat/dave_lidar_ws/src/install/lidar_plotter/share/lidar_plotter/hook/pythonpath.dsv'
+[1.293s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/safayat/dave_lidar_ws/src/install/lidar_plotter/share/lidar_plotter/hook/pythonpath.sh'
+[1.294s] Level 1:colcon.colcon_core.environment:checking '/home/safayat/dave_lidar_ws/src/install/lidar_plotter/bin'
+[1.294s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lidar_plotter)
+[1.294s] INFO:colcon.colcon_core.shell:Creating package script '/home/safayat/dave_lidar_ws/src/install/lidar_plotter/share/lidar_plotter/package.ps1'
+[1.295s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/safayat/dave_lidar_ws/src/install/lidar_plotter/share/lidar_plotter/package.dsv'
+[1.295s] INFO:colcon.colcon_core.shell:Creating package script '/home/safayat/dave_lidar_ws/src/install/lidar_plotter/share/lidar_plotter/package.sh'
+[1.296s] INFO:colcon.colcon_core.shell:Creating package script '/home/safayat/dave_lidar_ws/src/install/lidar_plotter/share/lidar_plotter/package.bash'
+[1.297s] INFO:colcon.colcon_core.shell:Creating package script '/home/safayat/dave_lidar_ws/src/install/lidar_plotter/share/lidar_plotter/package.zsh'
+[1.297s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/safayat/dave_lidar_ws/src/install/lidar_plotter/share/colcon-core/packages/lidar_plotter)
+[1.298s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.298s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.298s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.298s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.304s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.304s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.304s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.347s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.347s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/safayat/dave_lidar_ws/src/install/local_setup.ps1'
+[1.348s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/safayat/dave_lidar_ws/src/install/_local_setup_util_ps1.py'
+[1.349s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/safayat/dave_lidar_ws/src/install/setup.ps1'
+[1.350s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/safayat/dave_lidar_ws/src/install/local_setup.sh'
+[1.351s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/safayat/dave_lidar_ws/src/install/_local_setup_util_sh.py'
+[1.351s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/safayat/dave_lidar_ws/src/install/setup.sh'
+[1.352s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/safayat/dave_lidar_ws/src/install/local_setup.bash'
+[1.352s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/safayat/dave_lidar_ws/src/install/setup.bash'
+[1.353s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/safayat/dave_lidar_ws/src/install/local_setup.zsh'
+[1.354s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/safayat/dave_lidar_ws/src/install/setup.zsh'

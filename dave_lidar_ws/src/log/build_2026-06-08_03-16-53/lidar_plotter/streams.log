@@ -1,0 +1,27 @@
+[0.524s] Invoking command in '/home/safayat/dave_lidar_ws/src/lidar_plotter': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/safayat/dave_lidar_ws/src/build/lidar_plotter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/safayat/dave_lidar_ws/src/install/lidar_plotter/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/lidar_plotter build --build-base /home/safayat/dave_lidar_ws/src/build/lidar_plotter/build install --record /home/safayat/dave_lidar_ws/src/build/lidar_plotter/install.log --single-version-externally-managed install_data
+[0.690s] running egg_info
+[0.701s] writing ../build/lidar_plotter/lidar_plotter.egg-info/PKG-INFO
+[0.701s] writing dependency_links to ../build/lidar_plotter/lidar_plotter.egg-info/dependency_links.txt
+[0.701s] writing entry points to ../build/lidar_plotter/lidar_plotter.egg-info/entry_points.txt
+[0.701s] writing requirements to ../build/lidar_plotter/lidar_plotter.egg-info/requires.txt
+[0.701s] writing top-level names to ../build/lidar_plotter/lidar_plotter.egg-info/top_level.txt
+[0.722s] reading manifest file '../build/lidar_plotter/lidar_plotter.egg-info/SOURCES.txt'
+[0.722s] writing manifest file '../build/lidar_plotter/lidar_plotter.egg-info/SOURCES.txt'
+[0.722s] running build
+[0.722s] running build_py
+[0.722s] copying lidar_plotter/lidar_plotter_mod.py -> /home/safayat/dave_lidar_ws/src/build/lidar_plotter/build/lib/lidar_plotter
+[0.722s] running install
+[0.727s] running install_lib
+[0.737s] copying /home/safayat/dave_lidar_ws/src/build/lidar_plotter/build/lib/lidar_plotter/lidar_plotter_mod.py -> /home/safayat/dave_lidar_ws/src/install/lidar_plotter/lib/python3.12/site-packages/lidar_plotter
+[0.738s] byte-compiling /home/safayat/dave_lidar_ws/src/install/lidar_plotter/lib/python3.12/site-packages/lidar_plotter/lidar_plotter_mod.py to lidar_plotter_mod.cpython-312.pyc
+[0.739s] running install_data
+[0.739s] running install_egg_info
+[0.750s] removing '/home/safayat/dave_lidar_ws/src/install/lidar_plotter/lib/python3.12/site-packages/lidar_plotter-0.0.0-py3.12.egg-info' (and everything under it)
+[0.750s] Copying ../build/lidar_plotter/lidar_plotter.egg-info to /home/safayat/dave_lidar_ws/src/install/lidar_plotter/lib/python3.12/site-packages/lidar_plotter-0.0.0-py3.12.egg-info
+[0.751s] running install_scripts
+[0.834s] Installing lidar_plotter script to /home/safayat/dave_lidar_ws/src/install/lidar_plotter/lib/lidar_plotter
+[0.834s] Installing lidar_plotter_mod script to /home/safayat/dave_lidar_ws/src/install/lidar_plotter/lib/lidar_plotter
+[0.834s] Installing lidar_truth_overlay script to /home/safayat/dave_lidar_ws/src/install/lidar_plotter/lib/lidar_plotter
+[0.834s] Installing validate_lidar_against_sdf script to /home/safayat/dave_lidar_ws/src/install/lidar_plotter/lib/lidar_plotter
+[0.835s] writing list of installed files to '/home/safayat/dave_lidar_ws/src/build/lidar_plotter/install.log'
+[0.859s] Invoked command in '/home/safayat/dave_lidar_ws/src/lidar_plotter' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/safayat/dave_lidar_ws/src/build/lidar_plotter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/safayat/dave_lidar_ws/src/install/lidar_plotter/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/lidar_plotter build --build-base /home/safayat/dave_lidar_ws/src/build/lidar_plotter/build install --record /home/safayat/dave_lidar_ws/src/build/lidar_plotter/install.log --single-version-externally-managed install_data

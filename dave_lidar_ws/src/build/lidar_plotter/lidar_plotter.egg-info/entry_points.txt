@@ -1,0 +1,5 @@
+[console_scripts]
+lidar_plotter = lidar_plotter.lidar_plotter:main
+lidar_plotter_mod = lidar_plotter.lidar_plotter_mod:main
+lidar_truth_overlay = lidar_plotter.lidar_truth_overlay:main
+validate_lidar_against_sdf = lidar_plotter.validate_lidar_against_sdf:main
