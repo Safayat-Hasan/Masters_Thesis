@@ -1,0 +1,40 @@
+# {{definition|capitalize}} messages
+
+{% for msg_type in messages %}
+## {{msg_type}}
+{% if messages[msg_type].description %}
+{{messages[msg_type].description}}
+{% endif %}
+
+{% for msg in messages[msg_type] %}
+{% if msg != 'description' %}
+#### {{messages[msg_type][msg].id}} {{msg}}
+{% if messages[msg_type][msg].description %}
+{{messages[msg_type][msg].description}}
+{% endif %}
+
+{% if messages[msg_type][msg].payload %}
+| Type | Name             | Description                                                      | Units |
+|------|------------------|------------------------------------------------------------------|-------|
+{% for field in messages[msg_type][msg].payload %}
+{% if field.type == "vector" %}
+{% if field.vector.size == "dynamic" %}
+{% if field.vector.sizetype %}
+| {{field.vector.sizetype}} | {{field.name}}_length | The length of the proceeding vector field | |
+| {{field.vector.datatype}}[] | {{field.name}} | {{field.description}} | {{field.units}} |
+{% else %}
+| {{field.vector.datatype}}[] | {{field.name}} | {{field.description}} Length is derived from payload_length in the header. | {{field.units}} |
+{% endif %}
+{% endif %}
+{% else %}
+| {{field.type}} | {{field.name}} | {{field.description}} | {{field.units}} |
+{% endif %}
+{% endfor %}
+
+{% else %}
+No payload.
+
+{% endif %}
+{% endif %}
+{% endfor %}{# each message #}
+{% endfor %}{# each message type #}

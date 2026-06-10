@@ -1,0 +1,140 @@
+{
+    "messages": {
+        "general": {
+            "ack": {
+                "id": 1,
+                "description": "Acknowledged.",
+                "payload": [
+                    {
+                        "name": "acked_id",
+                        "type": "u16",
+                        "description": "The message ID that is ACKnowledged."
+                    }
+                ]
+            },
+            "nack": {
+                "id": 2,
+                "description": "Not acknowledged.",
+                "payload": [
+                    {
+                        "name": "nacked_id",
+                        "type": "u16",
+                        "description": "The message ID that is Not ACKnowledged."
+                    },
+                    {
+                        "name": "nack_message",
+                        "type": "vector",
+                        "vector": {
+                            "datatype": "char",
+                            "size": "dynamic"
+                        },
+                        "description": "ASCII text message indicating NACK condition. (not necessarily NULL terminated)"
+                    }
+                ]
+            },
+            "ascii_text": {
+                "id": 3,
+                "description": "A message for transmitting text data.",
+                "payload": [
+                    {
+                        "name": "ascii_message",
+                        "type": "vector",
+                        "vector": {
+                            "datatype": "char",
+                            "size": "dynamic"
+                        },
+                        "description": "ASCII text message. (not necessarily NULL terminated)"
+                    }
+                ]
+            },
+            "general_request": {
+                "id": 6,
+                "description": "Requests a specific message to be sent from the sonar to the host. Command timeout should be set to 50 msec.",
+                "payload": [
+                    {
+                        "name": "requested_id",
+                        "type": "u16",
+                        "description": "Message ID to be requested."
+                    }
+                ]
+            }
+        },
+        "get": {
+            "device_information": {
+                "id": 4,
+                "description": "Device information",
+                "payload": [
+                    {
+                        "name": "device_type",
+                        "type": "u8",
+                        "description": "Device type. 0: Unknown; 1: Ping Echosounder; 2: Ping360"
+                    },
+                    {
+                        "name": "device_revision",
+                        "type": "u8",
+                        "description": "device-specific hardware revision"
+                    },
+                    {
+                        "name": "firmware_version_major",
+                        "type": "u8",
+                        "description": "Firmware version major number."
+                    },
+                    {
+                        "name": "firmware_version_minor",
+                        "type": "u8",
+                        "description": "Firmware version minor number."
+                    },
+                    {
+                        "name": "firmware_version_patch",
+                        "type": "u8",
+                        "description": "Firmware version patch number."
+                    },
+                    {
+                        "name": "reserved",
+                        "type": "u8",
+                        "description": "reserved"
+                    }
+                ]
+            },
+            "protocol_version": {
+                "id": 5,
+                "description": "The protocol version",
+                "payload": [
+                    {
+                        "name": "version_major",
+                        "type": "u8",
+                        "description": "Protocol version major number."
+                    },
+                    {
+                        "name": "version_minor",
+                        "type": "u8",
+                        "description": "Protocol version minor number."
+                    },
+                    {
+                        "name": "version_patch",
+                        "type": "u8",
+                        "description": "Protocol version patch number."
+                    },
+                    {
+                        "name": "reserved",
+                        "type": "u8",
+                        "description": "reserved"
+                    }
+                ]
+            }
+        },
+        "set": {
+            "set_device_id": {
+                "id": 100,
+                "description": "Set the device ID.",
+                "payload": [
+                    {
+                        "name": "device_id",
+                        "type": "u8",
+                        "description": "Device ID (1-254). 0 is unknown and 255 is reserved for broadcast messages."
+                    }
+                ]
+            }
+        }
+    }
+}
